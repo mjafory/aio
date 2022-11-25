@@ -73,7 +73,9 @@
             <div class="card">
                 <h3>Github</h3>
                 <a href="https://github.com/jaffery97"><img src="img/github-mark.png" class="logo"><br><br>
-                    @jaffery97
+                    <a href="https://github.com/jaffery97">
+                    <input type="text" value="@jaffery97" id="myInput4" onclick="myFunction4()" readonly></a>
+                    
                 </a>
             </div>
         </div>
@@ -93,36 +95,36 @@
 
 
     <script>
-        function myFunction1() {
-            var copyText = document.getElementById("myInput");
-            copyText.select();
-            copyText.setSelectionRange(0, 99999)
-            document.execCommand("copy");
-            alert("Copied the link: " + copyText.value);
-        }
-
-        function myFunction2() {
-            var copyText = document.getElementById("myInput2");
-            copyText.select();
-            copyText.setSelectionRange(0, 99999)
-            document.execCommand("copy");
-            alert("Copied the text: " + copyText.value);
-        }
-
-        function myFunction3() {
-            var copyText = document.getElementById("myInput3");
-            copyText.select();
-            copyText.setSelectionRange(0, 99999)
-            document.execCommand("copy");
-            alert("Copied the text: " + copyText.value);
-        }
+//        function myFunction1() {
+//            var copyText = document.getElementById("myInput");
+//            copyText.select();
+//            copyText.setSelectionRange(0, 99999)
+//            document.execCommand("copy");
+//            alert("Copied the link: " + copyText.value);
+//        }
+//
+//        function myFunction2() {
+//            var copyText = document.getElementById("myInput2");
+//            copyText.select();
+//            copyText.setSelectionRange(0, 99999)
+//            document.execCommand("copy");
+//            alert("Copied the text: " + copyText.value);
+//        }
+//
+//        function myFunction3() {
+//            var copyText = document.getElementById("myInput3");
+//            copyText.select();
+//            copyText.setSelectionRange(0, 99999)
+//            document.execCommand("copy");
+//            alert("Copied the text: " + copyText.value);
+//        }
 
         function myFunction4() {
             var copyText = document.getElementById("myInput4");
             copyText.select();
             copyText.setSelectionRange(0, 99999)
             document.execCommand("copy");
-            alert("Copied the text: " + copyText.value);
+            alert("Copied the Username: " + copyText.value);
         }
     </script>
 
